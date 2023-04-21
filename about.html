@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive wedding planner website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <a href="#" class="logo">Đồ gỗ  nội thất giá rẻ </a>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <nav class="navbar">
+        <a href="index.html">Trang chủ</a>
+        <a href="index.html">Sản phẩm</a>
+        <a href="about.html">Dịch vụ</a>
+        <a href="index.html">Đánh giá</a>
+        <a href="index.html">Liên hệ</a>
+        
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+<section class="home" id="home"></section>
+
+
+    
+<section class="about" id="about">
+    <div class="heading">
+        <h1>Về chúng tôi</h1>
+        <img src="images/header-img.png" alt="">
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+          <div class="col-md-4">
+            
+            <p>Công ty chúng tôi là một doanh nghiệp chuyên sản xuất và kinh doanh các sản phẩm đồ gỗ giá rẻ, như bàn ghế, tủ kệ, giường ngủ và các sản phẩm nội thất khác. Với hơn 10 năm kinh nghiệm trong lĩnh vực sản xuất đồ gỗ, chúng tôi cam kết cung cấp cho khách hàng những sản phẩm chất lượng cao với giá thành hợp lý.
+            </p>
+            <p>Chúng tôi sử dụng nguyên liệu gỗ tự nhiên và quy trình sản xuất hiện đại để tạo ra những sản phẩm đồ gỗ đẹp và bền vững. Đội ngũ nhân viên giàu kinh nghiệm của chúng tôi luôn đảm bảo chất lượng sản phẩm và đáp ứng nhu cầu của khách hàng.
+            </p>
+            <p>Chúng tôi luôn tìm cách cải tiến và phát triển sản phẩm để đáp ứng nhu cầu thị trường. Chúng tôi cũng cung cấp dịch vụ tư vấn và thiết kế nội thất để giúp khách hàng tìm ra giải pháp tối ưu cho không gian sống của mình.
+            </p>
+            <p>Với mục tiêu trở thành một trong những doanh nghiệp hàng đầu trong lĩnh vực đồ gỗ giá rẻ, chúng tôi cam kết không ngừng cải tiến và hoàn thiện hệ thống sản xuất và phân phối để mang đến cho khách hàng những sản phẩm và dịch vụ tốt nhất.
+            </p>
+            <p>Hãy đến với chúng tôi để trải nghiệm những sản phẩm đồ gỗ chất lượng, đẹp mắt với giá cả phải chăng nhất. Chúng tôi sẵn sàng phục vụ và đáp ứng mọi nhu cầu của quý khách hàng.</p>
+          </div>
+          
+        </div>
+      </div> 
+      
+      
+
+</section>
+<div class="footer" id = "footer">  
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Về chúng tôi</h4>
+          <p>Chúng tôi là công ty chuyên cung cấp sản phẩm đồ gỗ nội thất giá rẻ.</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Liên hệ</h4>
+          <p>Địa chỉ: 123 đường ABC, phường XYZ, quận 123, TP. HCM<br>
+          Điện thoại: 0123456789<br>
+          Email: info@company.com</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Theo dõi chúng tôi</h4>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<script> 
+
+let menu = document.querySelector('#menu-bar');
+let navbar = document.querySelector('.navbar');
+
+menu.addEventListener('click', () =>{
+    menu.classList.toggle('fa-times');
+    navbar.classList.toggle('nav-toggle');
+});
+
+window.onscroll = () =>{
+    menu.classList.remove('fa-times');
+    navbar.classList.remove('nav-toggle');
+}
+
+</script>
+
+
+</body>
+</html>
